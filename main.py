@@ -3,6 +3,7 @@ from Task_2 import *
 from Task_3 import *
 from Task_4 import *
 from Task_5 import *
+from Task_6 import *
 
 print("Лабораторная работа №3")
 print("Изучение библиотеки Numpy и Matplotlib")
@@ -31,8 +32,8 @@ while (True):
             Task_4()
         case 5:
             Task_5()
-        # case 6:
-            # Task_6()
+        case 6:
+            Task_6()
         # case 7:
         #     Task_7()
         case 0:
