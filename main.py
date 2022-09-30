@@ -1,6 +1,7 @@
 from Task_1 import *
 from Task_2 import *
 from Task_3 import *
+from Task_4 import *
 from Task_5 import *
 
 print("Лабораторная работа №3")
@@ -26,8 +27,8 @@ while (True):
             Task_2()
         case 3:
             Task_3()
-        # case 4:
-            # Task_4()
+        case 4:
+            Task_4()
         case 5:
             Task_5()
         # case 6:
