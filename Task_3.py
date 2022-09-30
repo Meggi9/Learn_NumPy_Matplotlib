@@ -25,4 +25,12 @@ def Task_3():
     print(arrYA)
     print(arrYB)
 
-
+    plt.title("График", color="black", size=16)
+    plt.xlabel("x")
+    plt.ylabel("y")
+    plt.grid()
+    plt.plot(arrX, arrYA,'--y',label="y1(x)=a*x^2")
+    plt.plot(arrX, arrYB,'*',label="y1(x)=b*x+c")
+    plt.legend()
+    plt.figure(figsize=(5,5))
+    plt.show()
